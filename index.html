@@ -47,13 +47,13 @@
   </div>
 
   <script>
-    const DEFAULT_URL = (window.TEKHUM_CONFIG && window.TEKHUM_CONFIG.APP_SCRIPT_URL) || '';
+    const DEFAULT_URL = (window.SDMPARMAS_CONFIG && window.SDMPARMAS_CONFIG.APP_SCRIPT_URL) || '';
 
     document.getElementById('appTitle').textContent =
-      (window.TEKHUM_CONFIG && window.TEKHUM_CONFIG.APP_TITLE) || 'Sistem Upload Surat KPU';
+      (window.SDMPARMAS_CONFIG && window.SDMPARMAS_CONFIG.APP_TITLE) || 'Sistem Upload Surat KPU';
 
     document.getElementById('orgName').textContent =
-      (window.TEKHUM_CONFIG && window.TEKHUM_CONFIG.ORG_NAME) || 'KPU Kabupaten Labuhanbatu Utara';
+      (window.SDMPARMAS_CONFIG && window.SDMPARMAS_CONFIG.ORG_NAME) || 'KPU Kabupaten Labuhanbatu Utara';
 
     function getAppUrl() {
       return DEFAULT_URL;
